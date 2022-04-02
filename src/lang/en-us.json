@@ -1,0 +1,10 @@
+{
+  "public": {
+    "zh-TW": "繁",
+    "en-US": "EN"
+  },
+  "form": {
+    "append": "Add",
+    "title": "Student"
+  }
+}

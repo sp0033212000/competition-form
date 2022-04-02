@@ -1,0 +1,76 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "useDefineForClassFields": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "types": [
+            "element-plus/global"
+        ],
+        "paths": {
+            "@assets/*": [
+                "./src/assets/*"
+            ],
+            "@components/*": [
+                "./src/components/*"
+            ],
+            "@/*": [
+                "./src/*"
+            ],
+            "@lang/*": [
+                "./src/lang/*"
+            ],
+            "@layout/*": [
+                "./src/components/layout/*"
+            ],
+            "@style/*": [
+                "./src/style/*"
+            ],
+            "@types/*": [
+                "./src/types/*"
+            ],
+            "@pages/*": [
+                "./src/components/pages/*"
+            ],
+            "@feature/*": [
+                "./src/components/feature/*"
+            ],
+            "@form/*": [
+                "./src/components/feature/form/*"
+            ],
+            "@api/*": [
+                "./src/api/*"
+            ],
+            "@plugins/*": [
+                "./src/plugins/*"
+            ],
+            "@events/*": [
+                "./src/events/*"
+            ],
+            "@utils/*": [
+                "./src/utils/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue"
+    ],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
+}
