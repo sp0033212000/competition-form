@@ -170,6 +170,8 @@ export default defineComponent({
         const [, index] = regex.exec(key) || [null, null];
         if (isSet(index)) {
           const indexNumber = parseInt(index, 10);
+          const isValid = ctx.results[key as keyof typeof ctx.results]?.valid;
+          if (isValid) return;
           if (errorIds.has(indexNumber)) return;
           const id = ctx.values.formValues[indexNumber].id;
           errorIds.set(indexNumber, id);
