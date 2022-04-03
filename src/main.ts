@@ -13,7 +13,7 @@ import App from "@/App.vue";
 import PHome from "@components/pages/p-home.vue";
 import apiPlugin from "@plugins/api";
 
-const i18n = createI18n({
+export const i18n = createI18n({
   locale: "zh-TW",
   messages: {
     "zh-TW": zhTW,

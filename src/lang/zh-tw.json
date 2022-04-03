@@ -5,6 +5,32 @@
   },
   "form": {
     "append": "新增",
-    "title": "學生"
+    "submit": "提交",
+    "title": "學生",
+    "data": {
+      "name": "姓名",
+      "firstName": "姓氏",
+      "lastName": "名字",
+      "nickname": "暱稱",
+      "idNumber": "身分證字號",
+      "birthday": "生日",
+      "gender": "性別",
+      "genderOption": {
+        "male": "男",
+        "female": "女",
+        "other": "其他"
+      },
+      "skillLevel": "技能等級",
+      "emergencyContact": "緊急聯絡人",
+      "emergencyContactFirstName": "姓氏",
+      "emergencyContactLastName": "名字",
+      "emergencyContactCountryCode": "區碼",
+      "emergencyContactPhone": "電話"
+    },
+    "messages": {
+      "isRequired": "此欄位為必填。",
+      "isPhone": "請輸入正確的電話號碼。",
+      "isCountryCode": "請輸入正確的區碼。"
+    }
   }
 }

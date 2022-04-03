@@ -45,9 +45,6 @@
             "@feature/*": [
                 "./src/components/feature/*"
             ],
-            "@form/*": [
-                "./src/components/feature/form/*"
-            ],
             "@api/*": [
                 "./src/api/*"
             ],
@@ -59,6 +56,9 @@
             ],
             "@utils/*": [
                 "./src/utils/*"
+            ],
+            "@common/*": [
+                "./src/components/common/*"
             ]
         }
     },

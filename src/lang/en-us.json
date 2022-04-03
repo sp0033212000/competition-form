@@ -4,7 +4,33 @@
     "en-US": "EN"
   },
   "form": {
-    "append": "Add",
-    "title": "Student"
+    "append": "ADD",
+    "submit": "SUBMIT",
+    "title": "Student",
+    "data": {
+      "name": "Name",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "nickname": "Nickname",
+      "idNumber": "ID No.",
+      "birthday": "Birthday",
+      "gender": "Gender",
+      "genderOption": {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "skillLevel": "Skill level",
+      "emergencyContact": "Emergency contact",
+      "emergencyContactFirstName": "First name",
+      "emergencyContactLastName": "Last name",
+      "emergencyContactCountryCode": "Country code",
+      "emergencyContactPhone": "Phone"
+    },
+    "messages": {
+      "isRequired": "This field is required.",
+      "isPhone": "This is not a valid phone format.",
+      "isCountryCode": "This is not a valid country code format."
+    }
   }
 }
