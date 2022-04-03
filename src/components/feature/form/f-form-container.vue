@@ -15,7 +15,7 @@
       </el-button>
     </div>
     <el-collapse v-model="$data.activeSection" accordion>
-      <template v-for="(entry, index) in fields" :key="entry.key">
+      <template v-for="(entry, index) in fields" :key="index">
         <el-collapse-item :name="entry.value.id">
           <template #title>
             <el-button
